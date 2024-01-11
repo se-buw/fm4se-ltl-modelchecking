@@ -38,7 +38,7 @@ c. https://play.formal-methods.net/?check=XMV&p=antics-mango-eatery-props
 
 Analyze the given specifications using NuSMV. The files model a rail crossing.
 
-For each violated LTL specification copy the counterexample and explain in your own words, why the property is violated.
+For each violated LTL specification copy the counterexample and explain in your own words, why the property is violated. Note that we will check the explanation manually, i.e., it is not checked by the test cases.
 
 a. https://play.formal-methods.net/?check=XMV&p=stunt-credit-retold-lavish
 
