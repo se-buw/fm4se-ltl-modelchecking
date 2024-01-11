@@ -1,0 +1,54 @@
+{
+  "tests": [
+    {
+      "name": "Task 1: Natural Language and LTL",
+      "setup": "chmod +x gradlew",
+      "run": "./gradlew test --tests 'Task1Test' --console=rich",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "Task 2: Semantic Relations",
+      "setup": "chmod +x gradlew",
+      "run": "./gradlew test --tests 'Task2Test' --console=rich",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "Task 3: Train Signals",
+      "setup": "chmod +x gradlew",
+      "run": "./gradlew test --tests 'Task3Test' --console=rich",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "Task 4: Knight Moves",
+      "setup": "chmod +x gradlew",
+      "run": "./gradlew test --tests 'Task4Test' --console=rich",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "All tests",
+      "setup": "chmod +x gradlew",
+      "run": "./gradlew test",
+      "input": "",
+      "output": "",
+      "comparison": "excluded",
+      "timeout": 10,
+      "points": 0
+    }
+  ]
+}
