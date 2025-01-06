@@ -3,7 +3,7 @@
     {
       "name": "Task 1: Natural Language and LTL",
       "setup": "chmod +x gradlew",
-      "run": "./gradlew test --tests 'Task1Test' --console=rich",
+      "run": "./gradlew test --tests 'T1NaturalLanguageAndLTLTest' --console=rich",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -13,7 +13,7 @@
     {
       "name": "Task 2: Semantic Relations",
       "setup": "chmod +x gradlew",
-      "run": "./gradlew test --tests 'Task2Test' --console=rich",
+      "run": "./gradlew test --tests 'T2SemanticRelationsTest' --console=rich",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -23,7 +23,7 @@
     {
       "name": "Task 3: Train Signals",
       "setup": "chmod +x gradlew",
-      "run": "./gradlew test --tests 'Task3Test' --console=rich",
+      "run": "./gradlew test --tests 'T3TrainSignalsTest' --console=rich",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -33,7 +33,7 @@
     {
       "name": "Task 4: Knight Moves",
       "setup": "chmod +x gradlew",
-      "run": "./gradlew test --tests 'Task4Test' --console=rich",
+      "run": "./gradlew test --tests 'T4KnightMovesTest' --console=rich",
       "input": "",
       "output": "",
       "comparison": "included",
