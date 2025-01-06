@@ -1,5 +1,6 @@
 package de.buw.fm4se.modelchecking.utils;
 import java.net.HttpURLConnection;
+import java.net.URI;
 import java.net.URL;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -26,7 +27,8 @@ public class FmPlay {
       String apiurl = parts[0]+"api/permalink/?"+parts[1];
         try {
             // Create URL object
-            URL url = new URL(apiurl);
+            URI uri = new URI(apiurl);
+            URL url = uri.toURL();
 
             // Open a connection
             HttpURLConnection con = (HttpURLConnection) url.openConnection();
