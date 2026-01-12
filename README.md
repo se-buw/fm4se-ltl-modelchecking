@@ -9,7 +9,7 @@
 
 This task is about the translation of natural language (NL) text into LTL and vice versa.
 
-For each bullet below create an LTL formula using at least the operators mentioned in the specification (in any order) and include a NL text for the meaning of the LTL formula. Use the syntax of NuSMV.
+For each bullet below create an LTL formula using at least the operators mentioned in the specification (in any order) and include a NL text for the meaning of the LTL formula. Use the syntax of nuXmv.
 
 The formulas and NL requirements must be formulated for a robotic system. Note that the analysis will likely generate counterexamples as transitions in the model are unrestricted:
 
@@ -23,9 +23,9 @@ c. https://play.formal-methods.net/?check=XMV&p=spleen-frozen-prone-ashy
 
 ## Task 2: Semantic Relations
 
-Use a single NuSMV module for each pair in this task. For each pair of formulas provide a total of three checks to analyze whether the first implies the second, whether the second implies the first, and whether they are equivalent.
+Use a single nuXmv module for each pair in this task. For each pair of formulas provide a total of three checks to analyze whether the first implies the second, whether the second implies the first, and whether they are equivalent.
 
-a. https://play.formal-methods.net/?check=XMV&p=grape-bucket-shock-tabby (note: the release operator “R” from the slides has syntax “V” in NuSMV)
+a. https://play.formal-methods.net/?check=XMV&p=grape-bucket-shock-tabby (note: the release operator “R” from the slides has syntax “V” in nuXmv)
   
 b. https://play.formal-methods.net/?check=XMV&p=letter-womb-crumb-poplar
   
@@ -36,7 +36,7 @@ c. https://play.formal-methods.net/?check=XMV&p=antics-mango-eatery-props
 
 ## Task 3: Train Signals
 
-Analyze the given specifications using NuSMV. The files model a rail crossing.
+Analyze the given specifications using nuXmv. The files model a rail crossing.
 
 For each violated LTL specification copy the counterexample and explain in your own words, why the property is violated. Note that we will check the explanation manually, i.e., it is not checked by the test cases.
 
